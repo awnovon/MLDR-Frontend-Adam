@@ -3,16 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@azure/msal-browser": "^3.1.0",
-    "@azure/msal-react": "^2.0.3",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/icons-material": "^5.10.16",
-    "@mui/material": "^5.10.17",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.7.0",
-    "react-scripts": "^5.0.1"
+    "@azure/msal-browser": "^3.25.0",
+    "@azure/msal-react": "^2.1.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
+    "axios": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,12 +37,12 @@
   "devDependencies": {
     "@azure/msal-common": "^14.7.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@types/jest": "^29.5.0",
+    "@types/jest": "^29.5.13",
     "e2e-test-utils": "file:../../e2eTestUtils",
     "env-cmd": "^10.1.0",
-    "jest": "^29.5.0",
+    "jest": "^29.7.0",
     "jest-junit": "^16.0.0",
-    "ts-jest": "^29.1.0"
+    "ts-jest": "^29.2.5"
   },
   "jest-junit": {
     "suiteNameTemplate": "React-Router Tests",
